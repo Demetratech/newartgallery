@@ -7,14 +7,14 @@
 
 body {
 	background: #333;
-	color: #fff;
+	color: #cc3333;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
 a {
-	color: #f0f0f0;
+	color: #ffdb00;
 	text-decoration: none;
 	outline: none;
 }
