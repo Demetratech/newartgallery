@@ -6,7 +6,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #333;
+	background: #fff;
 	color: #cc3333;
 	font-weight: 400;
 	font-size: 1em;
@@ -32,98 +32,3 @@ section {
 	text-align: center;
 }
 
-
-/* To Navigation Style */
-.codrops-top {
-	width: 100%;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.69em;
-	line-height: 2.2;
-}
-
-.codrops-top a {
-	display: inline-block;
-	padding: 2em;
-	text-decoration: none;
-	letter-spacing: 1px;
-}
-
-.codrops-top span.right {
-	float: right;
-}
-
-.codrops-top span.right a {
-	display: block;
-	float: left;
-}
-
-.codrops-icon:before {
-	margin: 0 4px;
-	text-transform: none;
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	font-family: 'codropsicons';
-	line-height: 1;
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-}
-
-.codrops-icon-drop:before {
-	content: "\e001";
-}
-
-.codrops-icon-prev:before {
-	content: "\e004";
-}
-
-/* Demo Buttons Style */
-.codrops-demos {
-	padding: 2em 0 1em;
-	font-size: 0.8em;
-	text-align: center;
-}
-
-.codrops-demos a {
-	display: inline-block;
-	margin: 0.5em 0.75em;
-	line-height: 1.5;
-	outline: none;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-}
-
-.codrops-demos a.current-demo {
-	color: inherit;
-}
-
-/* Demo ad design */
-body #cdawrap {
-	background: none;
-	top: 50px;
-	opacity: 0;
-	-webkit-transition: opacity 0.3s 1.2s;
-	transition: opacity 0.3s 1.2s;
-	border: none;
-}
-
-body #cdawrap a {
-	color: #fff !important;
-}
-
-body .loaded ~ #cdawrap {
-	opacity: 1;
-}
-
-body #cda-remove {
-	color: #fff;
-}
-
-@media screen and (max-width: 35em) {
-	.codrops-icon span {
-		display: none;
-	}
-}
