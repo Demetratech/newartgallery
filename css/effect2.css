@@ -114,8 +114,7 @@
 	max-width: 1000px;
 	width: 100%;
 	border-radius: 8px;
-	background: #fff url(../img/browser.png) no-repeat 50% 0;
-	background-size: 100%;
+	background: #fff;
 	color: #d3d3d3;
 }
 
