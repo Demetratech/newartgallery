@@ -28,12 +28,9 @@ a {
 	outline: none;
 }
 
-/* Demo colors */
-.demo-1 { background: #ef6e7e; }
-.demo-1 a { color: #be4856; }
-
-.demo-2 { background: #72d0f4; }
-.demo-2 a { color: #1c9ccd; }
+/* background colors */
+.demo-2 { background: #eabaac; }
+.demo-2 a { color: #cc3333; }
 
 a:hover, a:focus {
 	color: #fff;
@@ -130,42 +127,6 @@ section {
 
 .codrops-demos a.current-demo {
 	color: inherit;
-}
-
-/* Related demos */
-.related {
-	padding: 4em 0 3em;
-}
-
-.related p {
-	font-size: 1.25em;
-	font-weight: 700;
-}
-
-.related > a {
-	border: 2px solid #000;
-	border-color: initial;
-	display: inline-block;
-	text-align: center;
-	margin: 20px 10px;
-	padding: 25px;
-}
-
-.related a img {
-	max-width: 100%;
-	opacity: 0.8;
-}
-
-.related a:hover img,
-.related a:active img {
-	opacity: 1;
-}
-
-.related a h3 {
-	margin: 0;
-	padding: 0.5em 0 0.3em;
-	max-width: 300px;
-	text-align: left;
 }
 
 /* Demo ad design */
