@@ -113,9 +113,8 @@
 	min-height: 400px;
 	max-width: 1000px;
 	width: 100%;
-	border-radius: 8px;
-	background: #fff;
-	color: #d3d3d3;
+	background: transparent;
+	color: #cc3333;
 }
 
 .box {
