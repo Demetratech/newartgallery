@@ -82,7 +82,7 @@ textarea {
     /* LABEL ======================================= */
     
     label {
-      color: #f9f2f2;
+      color: #cc3333;
       font-size: 30px;
       font-weight: normal;
       position: absolute;
@@ -104,7 +104,7 @@ textarea {
     textarea:focus ~ label {
       top: -5px;
       font-size: 14px;
-      color: #c93937;
+      color: #ff8d00;
     }
     
     /* BOTTOM BARS ================================= */
