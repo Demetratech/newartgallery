@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'MTF Krystyna';
-	src: url('MTFKrystyna.eot');
-	src: url('MTFKrystyna.eot?#iefix') format('embedded-opentype'),
-		url('MTFKrystyna.woff2') format('woff2'),
-		url('MTFKrystyna.woff') format('woff'),
-		url('MTFKrystyna.ttf') format('truetype');
+	src: url('font/MTFKrystyna.eot');
+	src: url('font/MMTFKrystyna.eot?#iefix') format('embedded-opentype'),
+		url('font/MMTFKrystyna.woff2') format('woff2'),
+		url('font/MMTFKrystyna.woff') format('woff'),
+		url('font/MMTFKrystyna.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
