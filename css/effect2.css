@@ -31,7 +31,7 @@
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
 }
-.ip-logo svg {
+.ip-inner {
 	background: rgba(255,255,229, .5);
 }
 
