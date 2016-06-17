@@ -125,9 +125,12 @@
 				<h2>Leave your contact here.</h2>
 				<div class="browser clearfix">
 					<form action="https://formspree.io/newsletter@artgolinelli.com"  method="POST">
-    						<input type="text" name="name">
-    						<input type="email" name="_replyto">
+    						<input type="text" name="name" required>
+    						<label for="name">Name</label>
+    						<input type="email" name="_replyto" required>
+    						<label for="email">Email</label>
     						<textarea type="text" name="message" maxlength="10000" rows="8" required></textarea>
+    						<label for="message">Message</label>
     						<input type="submit" value="Send">
 					</form>
 				</div>
