@@ -20,8 +20,7 @@
 	position: absolute;
 	left: 0;
 	width: 100%;
-	opacity: .5;
-	background: #ffffe5;
+	opacity: 0;
 	cursor: default;
 	pointer-events: none;
 }
@@ -31,6 +30,9 @@
 	height: 100%;
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
+}
+.ip-logo svg {
+	background: #ffffe5;
 }
 
 .ip-loader {
