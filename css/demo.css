@@ -79,19 +79,31 @@ textarea {
       outline: none;
     }
     
-    /* LABEL ======================================= */
-    
+    /* LABELS ======================================= */
     label {
-      color: #cc3333;
-      font-size: 30px;
-      font-weight: normal;
-      position: absolute;
-      pointer-events: none;
+    	color: #cc3333;
+      	font-size: 30px;
+      	font-weight: normal;
+      	position: absolute;
+      	pointer-events: none;
+      	transition: 0.2s ease all;
+      	-moz-transition: 0.2s ease all;
+      	-webkit-transition: 0.2s ease all;
+    }
+    	
+    }
+    .label-1 {
       left: 15px;
       top: 30px;
-      transition: 0.2s ease all;
-      -moz-transition: 0.2s ease all;
-      -webkit-transition: 0.2s ease all;
+    }
+    
+    .label-2 {
+      left: 15px;
+      top: 60px;
+    }
+    .label-3 {
+      left: 15px;
+      top: 260px;
     }
     
     .dt-message {
