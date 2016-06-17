@@ -32,7 +32,7 @@
 	transform: translate3d(0,25%,0);
 }
 .ip-logo svg {
-	background: #ffffe5;
+	background: rgba(255,255,229, .5);
 }
 
 .ip-loader {
