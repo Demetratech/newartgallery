@@ -70,7 +70,7 @@ textarea {
 .submit-input {
       float:right;
       margin: 10px;
-      padding: 10px 15px;
+      padding: 5px 10px;
       border: 2px solid #f8d000;
       cursor: pointer;
       display: block;
