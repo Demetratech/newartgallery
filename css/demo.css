@@ -142,8 +142,12 @@ textarea {
       width: 100%;
     }
     
-    .bbar:before,
-    .bbar:after {
+    .bbar-1:before,
+    .bbar-1:after,
+    .bbar-2:before,
+    .bbar-2:after,
+    .bbar-3:before,
+    .bbar-3:after {
       content: '';
       height: 2px;
       width: 0;
@@ -155,11 +159,15 @@ textarea {
       -webkit-transition: 0.2s ease all;
     }
     
-    .bbar:before {
+    .bbar-1:before,
+    .bbar-2:before,
+    .bbar-3:before{
       left: 50%;
     }
     
-    .bbar:after {
+    .bbar-1:after,
+    .bbar-2:after,
+    .bbar-3:after{
       right: 50%;
     }
     
