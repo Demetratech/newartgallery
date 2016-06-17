@@ -45,25 +45,25 @@ section {
 
 input,
 textarea {
-      font-size: 18px;
+      font-size: 26px;
       padding: 10px 10px 10px 5px;
       display: block;
       width: 50%;
       border: none;
       border-bottom: 1px solid #cc3333;
       background: transparent;
-      color: #f8d000;
+      color: #cc3333;
     }
     
 textarea {
-      font-size: 18px;
+      font-size: 26px;
       padding: 30px 10px 10px 5px;
       display: block;
       width: 100%;
       border: none;
       border-bottom: 1px solid #c93937;
       background: transparent;
-      color: #f8d000;
+      color: #cc3333;
     }
     
 .submit-input {
