@@ -134,7 +134,7 @@ textarea {
     }
     
     textarea:focus ~ .label-3 {
-    	top: 140px;
+    	top: 130px;
       	font-size: 26px;
       	color: #ff8d00;
     }
