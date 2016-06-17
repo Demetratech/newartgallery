@@ -110,12 +110,23 @@ textarea {
     
     /* active state */
     
-    input:focus ~ label,
-    input:valid ~ label,
-    textarea:focus ~ label {
-      top: -5px;
-      font-size: 14px;
+    .input-1:focus ~ .label-1,
+    .input-1:valid ~ .label-1 {
+      top: 30px;
+      font-size: 26px;
       color: #ff8d00;
+    }
+    .input-2:focus ~ .label-2,
+    .input-2:valid ~ .label-2 {
+      top: 72px;
+      font-size: 26px;
+      color: #ff8d00;
+    }
+    
+    textarea:focus ~ .label-3 {
+    	top: 120px;
+      	font-size: 26px;
+      	color: #ff8d00;
     }
     
     /* BOTTOM BARS ================================= */
