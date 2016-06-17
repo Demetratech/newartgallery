@@ -108,7 +108,7 @@ textarea {
     }
     
     .label-2 {
-      top: 92px;
+      top: 110px;
     }
     .label-3 {
       top: 280px;
@@ -128,13 +128,13 @@ textarea {
     }
     .input-2:focus ~ .label-2,
     .input-2:valid ~ .label-2 {
-      top: 77px;
+      top: 95px;
       font-size: 26px;
       color: #ff8d00;
     }
     
     textarea:focus ~ .label-3 {
-    	top: 130px;
+    	top: 140px;
       	font-size: 26px;
       	color: #ff8d00;
     }
