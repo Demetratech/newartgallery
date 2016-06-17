@@ -80,6 +80,7 @@ textarea {
     }
     
     /* LABELS ======================================= */
+    
     label {
     	color: #cc3333;
       	font-size: 30px;
@@ -94,7 +95,7 @@ textarea {
     	
     }
     .label-1 {
-      top: 30px;
+      top: 20px;
     }
     
     .label-2 {
