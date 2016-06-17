@@ -48,9 +48,9 @@ input {
       font-weight: bold;
       padding: 10px 10px 10px 5px;
       display: block;
-      width: 50%;
+      width: 100%;
       border: none;
-      border-bottom: 1px solid #cc3333;
+      border-bottom: 1px solid #f8d000;
       background: transparent;
       color: #cc3333;
     }
@@ -77,12 +77,6 @@ textarea {
       color: #f9f2f2;
       text-transform: uppercase;
       width:10%;
-    }
-    
-    .group-message textarea {
-      height: 200px;
-      padding: 20px 10px;
-      line-height: 24px;
     }
     
     input:focus,
@@ -155,7 +149,7 @@ textarea {
       width: 0;
       bottom: 1px;
       position: absolute;
-      background: #f8d000;
+      background: #cc3333;
       transition: 0.2s ease all;
       -moz-transition: 0.2s ease all;
       -webkit-transition: 0.2s ease all;
