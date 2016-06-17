@@ -128,7 +128,7 @@ textarea {
     }
     .input-2:focus ~ .label-2,
     .input-2:valid ~ .label-2 {
-      top: 95px;
+      top: 90px;
       font-size: 26px;
       color: #ff8d00;
     }
