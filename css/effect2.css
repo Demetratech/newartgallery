@@ -20,7 +20,8 @@
 	position: absolute;
 	left: 0;
 	width: 100%;
-	opacity: 0;
+	opacity: .5;
+	background: #ffffe5;
 	cursor: default;
 	pointer-events: none;
 }
