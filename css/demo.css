@@ -165,9 +165,11 @@ textarea {
     
     /* active state */
     
-    input:focus ~ .bbar:before,
-    textarea:focus ~ .bbar:before,
-    input:focus ~ .bbar:after,
-    textarea:focus ~ .bbar:after {
+    .input-1:focus ~ .bbar-1:before,
+    .input-2:focus ~ .bbar-2:before,
+    textarea:focus ~ .bbar-3:before,
+    .input-1:focus ~ .bbar-1:after,
+    .input-2:focus ~ .bbar-2:after,
+    textarea:focus ~ .bbar-3:after {
       width: 50%;
     }
