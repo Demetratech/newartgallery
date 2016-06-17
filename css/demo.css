@@ -98,7 +98,7 @@ textarea {
     }
     
     .label-2 {
-      top: 90px;
+      top: 95px;
     }
     .label-3 {
       top: 280px;
@@ -107,6 +107,7 @@ textarea {
     .dt-message {
       top: 180px;
     }
+    
     /* active state */
     
     input:focus ~ label,
