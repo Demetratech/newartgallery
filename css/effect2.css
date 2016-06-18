@@ -260,3 +260,11 @@
 	}
 
 }
+@media screen and (max-width: 1025px) {
+	.ip-main {
+
+    	padding: 200px 0 10em 0;
+		
+	}
+	
+}
