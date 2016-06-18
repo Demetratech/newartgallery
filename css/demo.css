@@ -179,3 +179,8 @@ textarea {
     textarea:focus ~ .bbar-3:after {
       width: 50%;
     }
+    
+    .privacy {
+    	text-align:center;
+    	margin:10px;
+    }
