@@ -136,7 +136,9 @@ textarea {
     
     /* BOTTOM BARS ================================= */
     
-    .bbar {
+    .bbar-1,
+    .bbar-2,
+    .bbar-3 {
       position: relative;
       display: block;
       width: 100%;
