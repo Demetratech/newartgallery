@@ -64,7 +64,7 @@ textarea {
       border: none;
       border-bottom: 1px solid #f8d000;
       background: transparent;
-      color: #f8d000;
+      color: #cc3333;
     }
     
 .submit-input {
@@ -74,7 +74,7 @@ textarea {
       border: 2px solid #f8d000;
       cursor: pointer;
       display: block;
-      color: #f8d000;
+      color: #cc3333;
       text-transform: uppercase;
       width:10%;
     }
@@ -99,11 +99,11 @@ textarea {
     }
     
     .label-1 {
-      top: 35px;
+      top: 25px;
     }
     
     .label-2 {
-      top: 85px;
+      top: 75px;
     }
     .label-3 {
       top: 260px;
@@ -113,13 +113,13 @@ textarea {
     
     .input-1:focus ~ .label-1,
     .input-1:valid ~ .label-1 {
-      top: 20px;
+      top: 10px;
       font-size: 26px;
       color: #ff8d00;
     }
     .input-2:focus ~ .label-2,
     .input-2:valid ~ .label-2 {
-      top: 70px;
+      top: 60px;
       font-size: 26px;
       color: #ff8d00;
     }
