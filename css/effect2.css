@@ -245,7 +245,11 @@
 /* Media queries */
 
 @media screen and (max-width: 45em) {
+	.ip-main {
 
+    	padding: 200px 0 10em 0;
+		
+	}
 	.ip-main h2 {
 		font-size: 2.25em;
 		font-size: 10vw;
