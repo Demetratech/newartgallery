@@ -79,6 +79,12 @@ textarea {
       width:10%;
     }
     
+@media only screen and (max-width : 768px) {
+	.submit-input {
+		width:20%;
+	}
+}
+    
     input:focus,
     textarea:focus {
       outline: none;
